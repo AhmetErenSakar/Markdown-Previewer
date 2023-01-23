@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  background-color: #ffcd38;
+}
+.verse {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  height: 700px;
+}
+.content {
+  height: 60%;
+  width: 45%;
+  margin-right: 30px;
+  background-color: #ffdd67;
+  box-shadow: 10px 10px lighten(#4a4a4a, 10%);
+}
+.content textarea {
+  border: none;
+}
+.markdown {
+  text-align: left;
+  height: 60%;
+  width: 45%;
+  overflow: auto;
+  background-color: #ffdd67;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  margin-left: 40%;
+  background-color: #ffcd38;
+}
+.header h1 {
+  margin-right: 40%;
+}
+.help-btn {
+  align-self: flex-end;
+  margin-right: 50px;
+  margin-top: 50px;
+  background-color: #ffdd67;
+  width: 40px;
+  height: 40px;
+  font-size: 26px;
+  cursor: pointer;
+}
